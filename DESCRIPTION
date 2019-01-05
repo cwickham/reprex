@@ -31,7 +31,7 @@ Imports:
     callr (>= 2.0.0),
     clipr (>= 0.4.0),
     fs,
-    rlang,
+    rlang (>= 0.3.1.9000),
     rmarkdown,
     utils,
     whisker,
@@ -40,13 +40,16 @@ Suggests:
     covr,
     devtools,
     fortunes,
-    knitr,
+    knitr (>= 1.21.6.9000),
     miniUI,
     rprojroot,
     rstudioapi,
     shiny,
     styler (>= 1.0.2),
     testthat (>= 2.0.0)
+Remotes:
+    lionel-/knitr@add-calling-handlers,
+    r-lib/rlang
 VignetteBuilder: knitr
 Encoding: UTF-8
 LazyData: true
